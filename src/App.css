@@ -15,7 +15,6 @@
 
 .Panel-2 {
   height: 100vh;
-  left: -5px;
   background-image: url("./assets/slide-2.jpg");
   width: calc(100vh * 1.6);
   background-size: cover;
@@ -25,7 +24,6 @@
 
 .Panel-3 {
   height: 100vh;
-  left: -5px;
   background-image: url("./assets/slide-3.jpg");
   width: calc(100vh * 0.57);
   background-size: cover;
