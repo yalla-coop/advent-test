@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+  background-color: black;
+  height: 100vh;
+}
+
+.Panel-1 {
+  height: 100vh;
+  width: calc(100vh * 1.6);
+  background-image: url("./assets/slide-1.jpg");
+  background-size: cover;
+  margin-right: 6px;
+  position: relative;
+}
+
+.Panel-2 {
+  height: 100vh;
+  left: -5px;
+  background-image: url("./assets/slide-2.jpg");
+  width: calc(100vh * 1.6);
+  background-size: cover;
+  margin-right: 6px;
+  position: relative;
+}
+
+.Panel-3 {
+  height: 100vh;
+  left: -5px;
+  background-image: url("./assets/slide-3.jpg");
+  width: calc(100vh * 0.57);
+  background-size: cover;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.App-header {
+  background-color: #282c34;
+  height: 100vh;
+  min-width: calc(100vh * 3.2);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#Door-1 {
+  font-size: 40px;
+  color: lightcoral;
+  text-decoration: none;
+  position: absolute;
+  display: block;
+  left: calc(100vh * 0.322);
+  top: 21vh;
+}
+
+#Door-16 {
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  right: calc(100vh * 0.079);
+  top: 35.5vh;
+  transition: all ease 0.2s;
+}
+
+#Door-7 {
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  left: calc(100vh * 0.502);
+  top: 13vh;
+  transition: all ease 0.2s;
+}
+
+.Door {
+  transition: all ease 0.2s;
+}
+
+.Door:hover {
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  color: darkred;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 5px 10px #fff, 0 0 20px #ff4da6, 0 0 30px #ff4da6,
+      0 0 25px #ff4da6, 0 0 30px #ff4da6, 0 0 35px #ff4da6, 0 0 40px #ff4da6;
+  }
+  to {
+    text-shadow: 0 5px 10px #fff, 0 0 10px #fff, 0 0 15px #e60073,
+      0 0 20px #e60073, 0 0 25px #e60073, 0 0 30px #e60073, 0 0 70px #e60073;
+  }
+}
